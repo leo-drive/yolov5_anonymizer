@@ -7,7 +7,6 @@ from tkinter import W
 from cv2 import IMWRITE_PAM_FORMAT_RGB_ALPHA
 import matplotlib.pyplot as plt
 from yaml import parse
-from extract_images import extractImages
 sys.path.append(os.path.join(os.path.dirname(__file__), '../../')) # root
 
 import onnxruntime as ort
